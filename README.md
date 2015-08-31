@@ -9,27 +9,27 @@ What does that even mean? It's impossible to know!
 
 What if I told you there was a human-readable method of expressing your regular expression?
 ```xml
-<?xml version="1.0"?>
-<expression type=regular" dialect="posix" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation="regexml.xsd">
+<?xml version="1.0" ?>
+<expression type="regular" dialect="posix"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="regexml.xsd">
  <character encoding="utf-8" locale="en-US"><![CDATA[<]]></character>
  <repeat type="oneormore">
   <characterset>
-   <startingcharacter encoding="utf-8" locale="en-US">a</startingcharacter>
-   <endingcharacter encoding="utf-8" locale="en-US">z</endingcharacter>
+   <character encoding="utf-8" locale="en-US">a</character>
+   <character encoding="utf-8" locale="en-US">z</character>
   </characterset>
  </repeat>
  <character encoding="utf-8" locale="en-US"><![CDATA[>]]></character>
  <repeat type="zeroormore">
-  <wildcard></wildcard>
+  <wildcard />
  </repeat>
  <character encoding="utf-8" locale="en-US"><![CDATA[<]]></character>
  <character encoding="utf-8" locale="en-US">/</character>
  <repeat type="oneormore">
   <characterset>
-   <startingcharacter encoding="utf-8" locale="en-US">a</startingcharacter>
-   <endingcharacter encoding="utf-8" locale="en-US">z</endingcharacter>
+   <character encoding="utf-8" locale="en-US">a</character>
+   <character encoding="utf-8" locale="en-US">z</character>
   </characterset>
  </repeat>
  <character encoding="utf-8" locale="en-US"><![CDATA[>]]></character>
