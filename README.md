@@ -39,7 +39,7 @@ What if I told you there was a human-readable method of expressing your regular 
 Obviously, this example is much easier to read in regeXML format. It has the following additional benefits:
 * Easier for a computer to read, parse, serialize and transmit.
 * Is more extensible than standard regex syntax.
-* Can be validated againt a schema to ensure correctness.
+* Can be validated against a schema to ensure correctness.
 * Can be easily and safely embedded into other XML-based documents for composability.
 
 Usage:
