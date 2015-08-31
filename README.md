@@ -29,6 +29,7 @@ xsi:noNamespaceSchemaLocation="regexml.xsd">
   </characterset>
  </repeat>
  <character encoding="utf-8" locale="en-US"><![CDATA[>]]></character>
+</expression>
 ```
 
 Obviously, this example is much easier to read in regeXML format. It has the following additional benefits:
