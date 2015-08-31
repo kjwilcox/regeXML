@@ -13,7 +13,7 @@ xsi:noNamespaceSchemaLocation="regexml.xsd">
  <repeat type="oneormore">
   <characterset>
    <startingcharacter encoding="utf-8" locale="en-US">a</startingcharacter>
-   <endingcharacter encoding="utf-8" locale="en-US">a</endingcharacter>
+   <endingcharacter encoding="utf-8" locale="en-US">z</endingcharacter>
   </characterset>
  </repeat>
  <character encoding="utf-8" locale="en-US"><![CDATA[>]]></character>
@@ -25,7 +25,7 @@ xsi:noNamespaceSchemaLocation="regexml.xsd">
  <repeat type="oneormore">
   <characterset>
    <startingcharacter encoding="utf-8" locale="en-US">a</startingcharacter>
-   <endingcharacter encoding="utf-8" locale="en-US">a</endingcharacter>
+   <endingcharacter encoding="utf-8" locale="en-US">z</endingcharacter>
   </characterset>
  </repeat>
  <character encoding="utf-8" locale="en-US"><![CDATA[>]]></character>
