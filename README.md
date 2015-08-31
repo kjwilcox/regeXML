@@ -1,9 +1,13 @@
 # regeXML
 A Python library to support parsing regeXML expressions.
 
-Tired of trying to wrap your tiny brain around difficult-to-understand regular expressions like `<[a-z]+>.*</[a-z]+>`?
+Tired of trying to wrap your tiny brain around difficult-to-understand regular expressions?
 
-What if you had a human-readable method of expressing your regular expression?
+`<[a-z]+>.*</[a-z]+>`
+
+What does that even mean? It's impossible to know!
+
+What if I told you there was a human-readable method of expressing your regular expression?
 ```xml
 <?xml version="1.0"?>
 <expression type=regular" dialect="posix" 
